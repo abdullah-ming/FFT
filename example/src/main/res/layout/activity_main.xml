@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jay.example.relativelayoutdemo.MainActivity"
+    android:background="@drawable/a5">
+
+
+    <ImageView
+        android:id="@+id/result_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/myicon" />
+
+
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_below="@id/result_image"
+
+        android:background="@drawable/bt_shape"
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="FFT Image"/>
+    <Button
+        android:id="@+id/button_2"
+        android:layout_below="@id/button_1"
+
+        android:background="@drawable/bt_shape"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="iFFT Image"/>
+
+</RelativeLayout>
+

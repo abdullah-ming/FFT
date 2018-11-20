@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">FFT</string>
+
+    <string name="action_select">acquire</string>
+
+</resources>
